@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f87e800-b42c-4ffd-b344-1e33db18e231" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Professional Javascript for Web Developers PDF/Chapter 7 - Function Expressions/Function Instantiation/ReturnFunctions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -70,11 +70,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Professional Javascript for Web Developers PDF/Chapter 7 - Function Expressions/Function Instantiation/ReturnFunctions.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
               <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24">
+              <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -137,6 +146,7 @@
         <option value="$PROJECT_DIR$/Professional Javascript for Web Developers PDF/Chapter 7 - Function Expressions/Function Instantiation/FunctionExpression.js" />
         <option value="$PROJECT_DIR$/Professional Javascript for Web Developers PDF/Chapter 7 - Function Expressions/Function Instantiation/ConditionalFunctions.js" />
         <option value="$PROJECT_DIR$/Professional Javascript for Web Developers PDF/Chapter 7 - Function Expressions/Function Instantiation/ReturnFunctions.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -162,24 +172,6 @@
               <item name="Professional JavaScript for Web Developers" type="b2602c69:ProjectViewProjectNode" />
               <item name="Professional JavaScript for Web Developers" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Professional JavaScript for Web Developers" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Professional JavaScript for Web Developers" type="462c0819:PsiDirectoryNode" />
-              <item name="Professional Javascript for Web Developers PDF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Professional JavaScript for Web Developers" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Professional JavaScript for Web Developers" type="462c0819:PsiDirectoryNode" />
-              <item name="Professional Javascript for Web Developers PDF" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter 7 - Function Expressions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Professional JavaScript for Web Developers" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Professional JavaScript for Web Developers" type="462c0819:PsiDirectoryNode" />
-              <item name="Professional Javascript for Web Developers PDF" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter 7 - Function Expressions" type="462c0819:PsiDirectoryNode" />
-              <item name="Function Instantiation" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -194,6 +186,11 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\DJiang\WebstormProjects\Professional JavaScript for Web Developers" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -218,12 +215,12 @@
       <option name="presentableId" value="Default" />
       <updated>1561029173066</updated>
       <workItem from="1561029174300" duration="4576000" />
-      <workItem from="1561033781516" duration="71000" />
+      <workItem from="1561033781516" duration="393000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4647000" />
+    <option name="totallyTimeSpent" value="4969000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -357,6 +354,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
         </state>
       </provider>
     </entry>
