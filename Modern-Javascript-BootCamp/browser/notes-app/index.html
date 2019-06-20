@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Notes App</title>
+</head>
+<body>
+    <h1>Notes App</h1>
+    <label>
+        Search: <input type="text" id="search-text" placeholder="filter notes">
+    </label>
+
+    <select id="filter-by">
+        <option value="" selected disabled hidden>Sort</option>
+        <option value="byEdited">Sort by last edited</option>
+        <option value="byCreated">Sort by recently created</option>
+        <option value="alphabetical">Sort alphabetically</option>
+    </select>
+    
+    <div id="notes"></div>
+    <button id="create-note">Create notes</button>
+    <!--<button id="remove-all">Remove all Notes</button>-->
+    <!--<form action="" id="name-form">-->
+        <!--<input type="text" placeholder="First Name" name="firstName">-->
+        <!--<button>Submit</button>-->
+    <!--</form>-->
+    <!--<label>-->
+        <!--<input id="for-fun" type="checkbox"> Check this out-->
+    <!--</label>-->
+
+</body>
+<script src="notes-app.js"></script>
+</html>

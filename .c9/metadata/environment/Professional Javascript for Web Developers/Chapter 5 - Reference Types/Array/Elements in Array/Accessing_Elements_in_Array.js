@@ -1,0 +1,1 @@
+{"filter":false,"title":"Accessing_Elements_in_Array.js","tooltip":"/Professional Javascript for Web Developers/Chapter 5 - Reference Types/Array/Elements in Array/Accessing_Elements_in_Array.js","ace":{},"undoManager":{"mark":-1,"position":-1,"stack":[]},"timestamp":1558698901777,"hash":"29f9c56322c883135cdffa98cc0df61424bc3d8d"}

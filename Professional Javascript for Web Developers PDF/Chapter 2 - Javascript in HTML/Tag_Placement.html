@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Example HTML Page</title>
+        <script type=”text/javascript” src=”example1.js”></script>
+        <script type=”text/javascript” src=”example2.js”></script>
+    </head>
+    <body>
+    <!-- content here -->
+    </body>
+</html>
+
+<!--
+    The main purpose of this format was to keep external fi le references, both CSS fi les and JavaScript
+    files, in the same area. However, including all JavaScript fi les in the <head> of a document means
+    that all of the JavaScript code must be downloaded, parsed, and interpreted before the page begins
+    rendering (rendering begins when the browser receives the opening <body> tag). For pages that
+    require a lot of JavaScript code, this can cause a noticeable delay in page rendering, during which
+    time the browser will be completely blank. For this reason, modern web applications typically include
+    all JavaScript references in the <body> element, after the page content, as shown in this example:
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Example HTML Page</title>
+    </head>
+    <body>
+        <!-- content here -->
+        <script type=”text/javascript” src=”example1.js”></script>
+        <script type=”text/javascript” src=”example2.js”></script>
+    </body>
+</html>
