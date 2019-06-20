@@ -12,5 +12,5 @@ var functionName = function(arg0, arg1, arg2){
 // following causes an error:
 sayHi(); //error – function doesn’t exist yet
 var sayHi = function(){
-    alert(“Hi!”);
+    alert('Hi!');
 };

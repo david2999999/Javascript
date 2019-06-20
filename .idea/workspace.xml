@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f87e800-b42c-4ffd-b344-1e33db18e231" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Professional Javascript for Web Developers PDF/Chapter 7 - Function Expressions/Function Instantiation/FunctionDeclaration.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Professional Javascript for Web Developers PDF/Chapter 7 - Function Expressions/Function Instantiation/FunctionExpression.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Professional Javascript for Web Developers PDF/Chapter 7 - Function Expressions/Function Instantiation/ConditionalFunctions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Professional Javascript for Web Developers PDF/Chapter 7 - Function Expressions/Function Instantiation/FunctionExpression.js" beforeDir="false" afterPath="$PROJECT_DIR$/Professional Javascript for Web Developers PDF/Chapter 7 - Function Expressions/Function Instantiation/FunctionExpression.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -63,10 +63,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Professional Javascript for Web Developers PDF/Chapter 7 - Function Expressions/Function Instantiation/ConditionalFunctions.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Professional Javascript for Web Developers PDF/Chapter 7 - Function Expressions/Function Instantiation/FunctionExpression.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+            <state relative-caret-position="240">
+              <caret line="10" column="62" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -118,6 +127,7 @@
         <option value="$PROJECT_DIR$/Professional Javascript for Web Developers PDF/Chapter 7 - Function Expressions/Declaration Hoisting/Hoisting.js" />
         <option value="$PROJECT_DIR$/Professional Javascript for Web Developers PDF/Chapter 7 - Function Expressions/Function Instantiation/FunctionDeclaration.js" />
         <option value="$PROJECT_DIR$/Professional Javascript for Web Developers PDF/Chapter 7 - Function Expressions/Function Instantiation/FunctionExpression.js" />
+        <option value="$PROJECT_DIR$/Professional Javascript for Web Developers PDF/Chapter 7 - Function Expressions/Function Instantiation/ConditionalFunctions.js" />
       </list>
     </option>
   </component>
@@ -174,7 +184,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea/workspace.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -198,12 +208,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561029173066</updated>
-      <workItem from="1561029174300" duration="4030000" />
+      <workItem from="1561029174300" duration="4350000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4030000" />
+    <option name="totallyTimeSpent" value="4350000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -269,6 +279,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Professional Javascript for Web Developers PDF/Chapter 7 - Function Expressions/Function Instantiation/FunctionExpression.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="62" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Professional Javascript for Web Developers PDF/Chapter 7 - Function Expressions/Function Instantiation/FunctionDeclaration.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -276,13 +296,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Professional Javascript for Web Developers PDF/Chapter 7 - Function Expressions/Function Instantiation/FunctionExpression.js">
+    <entry file="file://$PROJECT_DIR$/Professional Javascript for Web Developers PDF/Chapter 7 - Function Expressions/Function Instantiation/ConditionalFunctions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="216">
+          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
         </state>
       </provider>
     </entry>
