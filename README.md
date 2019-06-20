@@ -20,10 +20,10 @@ could not have been predicted. JavaScript is at once a very simple and very comp
 language that takes minutes to learn but years to master. To begin down the path to using
 JavaScript’s full potential, it is important to understand its nature, history, and limitations.
 ### Avoid Global Variables
-Minimize the use of global variables.
+* Minimize the use of global variables.
 
-This includes all data types, objects, and functions.
+* This includes all data types, objects, and functions.
 
-Global variables and functions can be overwritten by other scripts.
+* Global variables and functions can be overwritten by other scripts.
 
-Use local variables instead, and learn how to use closures.
+* Use local variables instead, and learn how to use closures.
