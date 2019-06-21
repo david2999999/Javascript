@@ -18,3 +18,22 @@ function outputNumbers(count){
 // completes execution, so the variable i is used in the loop and then destroyed. The count variable is
 // accessible inside the private scope because the anonymous function is a closure, with full access to
 // the containing scope’s variables.
+
+
+
+
+
+// This technique is often used in the global scope outside of functions to limit the number of variables
+// and functions added to the global scope. Typically you want to avoid adding variables and functions
+// to the global scope, especially in large applications with multiple developers, to avoid naming
+// collisions. Private scopes allow every developer to use his or her own variables without worrying
+// about polluting the global scope. Consider this example:
+(function(){
+    var now = new Date();
+    if (now.getMonth() == 0 && now.getDate() == 1){
+        alert('Happy new year!');
+    }
+})();
+// Placing this code in the global scope provides functionality for determining if the day is January 1
+// and, if so, displaying a message to the user. The variable now becomes a variable that is local to the
+// anonymous function instead of being created in the global scope.
