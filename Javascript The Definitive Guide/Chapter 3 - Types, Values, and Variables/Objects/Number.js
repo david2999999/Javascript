@@ -15,3 +15,12 @@ Number.MIN_VALUE/2 // Underflow: evaluates to 0
 -Number.MIN_VALUE/2 // Negative zero
 -1/Infinity // Also negative 0
 -0
+
+
+// The negative zero value is also somewhat unusual. It compares equal (even using Java-
+// Script’s strict equality test) to positive zero, which means that the two values are almost
+// indistinguishable, except when used as a divisor:
+var zero = 0; // Regular zero
+var negz = -0; // Negative zero
+zero === negz // => true: zero and negative zero are equal
+1/zero === 1/negz // => false: infinity and -infinity are not equal
