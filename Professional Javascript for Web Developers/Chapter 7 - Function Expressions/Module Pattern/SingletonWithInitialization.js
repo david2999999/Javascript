@@ -10,7 +10,7 @@ var application = function(){
             return components.length;
         },
         registerComponent : function(component){
-            if (typeof component == “object”){
+            if (typeof component == 'object'){
                 components.push(component);
             }
         }
