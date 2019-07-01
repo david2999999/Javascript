@@ -16,3 +16,9 @@ var x = 2, // Multiple variables...
 // visible throughout the JavaScript program. As noted in §3.10.2, global variables are
 // properties of the global object. Unlike other global properties, however, properties
 // created with var cannot be deleted.
+
+// Note that the var statement can also appear as part of the for and for/in loops. (These
+// variables are hoisted, just like variables declared outside of a loop.)
+for(var i = 0; i < 10; i++) console.log(i);
+for(var i = 0, j=10; i < 10; i++,j--) console.log(i*j);
+for(var i in o) console.log(i);
