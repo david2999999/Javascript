@@ -28,3 +28,17 @@ o.x // => 2
 // Now change x from a data property to an accessor property
 Object.defineProperty(o, "x", { get: function() { return 0; } });
 o.x // => 0
+
+// If you want to create or modify more than one property at a time, use Object.define
+// Properties(). The first argument is the object that is to be modified. The second argument
+// is an object that maps the names of the properties to be created or modified to
+// the property descriptors for those properties
+var p = Object.defineProperties({}, {
+    x: { value: 1, writable: true, enumerable:true, configurable:true },
+    y: { value: 1, writable: true, enumerable:true, configurable:true },
+    r: {
+        get: function() { return Math.sqrt(this.x*this.x + this.y*this.y) },
+        enumerable:true,
+        configurable:true
+    }
+});
