@@ -1,7 +1,7 @@
 // The following code defines a function named check() that is passed the arguments array
 // from another function. It compares arguments.length (the number of arguments actually
 // passed) to arguments.callee.length (the number expected) to determine whether
-// the function was passed the right number of arguments. If not, it throws an exception.
+// the function was passed the right number ofwewIf not, it throws an exception.
 // The check() function is followed by a test function f() that demonstrates how
 // check() can be used:
 
