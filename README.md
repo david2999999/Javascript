@@ -27,3 +27,8 @@ JavaScript’s full potential, it is important to understand its nature, history
 * Global variables and functions can be overwritten by other scripts.
 
 * Use local variables instead, and learn how to use closures.
+
+### Private variable with closure
+Languages such as Java provide the ability to declare methods private, meaning that they can only be called by other methods in the same class.
+
+JavaScript does not provide a native way of doing this, but it is possible to emulate private methods using closures. Private methods aren't just useful for restricting access to code: they also provide a powerful way of managing your global namespace, keeping non-essential methods from cluttering up the public interface to your code.
