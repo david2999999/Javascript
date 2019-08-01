@@ -10,7 +10,7 @@ element.appendChild(textNode);
 
 document.body.appendChild(element);
 
-var newNode = element.fi rstChild.splitText(5);
-alert(element.fi rstChild.nodeValue); //'Hello'
+var newNode = element.firstChild.splitText(5);
+alert(element.firstChild.nodeValue); //'Hello'
 alert(newNode.nodeValue); //' world!'
 alert(element.childNodes.length); //2
