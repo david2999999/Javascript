@@ -28,6 +28,9 @@ JavaScript’s full potential, it is important to understand its nature, history
 
 * Use local variables instead, and learn how to use closures.
 
+### Prototypes
+When a function is created in JavaScript, the JavaScript engine adds a prototype property to the function. This prototype property is an object (called as prototype object) which has a constructor property by default. The constructor property points back to the function on which prototype object is a property. We can access the function’s prototype property using functionName.prototype.
+
 ### Private variable with closure
 Languages such as Java provide the ability to declare methods private, meaning that they can only be called by other methods in the same class.
 
