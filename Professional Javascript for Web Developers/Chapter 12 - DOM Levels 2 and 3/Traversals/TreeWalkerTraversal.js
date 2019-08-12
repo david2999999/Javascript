@@ -4,7 +4,7 @@
 var div = document.getElementById('div1');
 var walker = document.createTreeWalker(div, NodeFilter.SHOW_ELEMENT, null, false);
 
-walker.fi rstChild(); //go to <p>
+walker.firstChild(); //go to <p>
 walker.nextSibling(); //go to <ul>
 
 var node = walker.firstChild(); //go to fi rst <li>
