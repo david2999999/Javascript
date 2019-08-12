@@ -6,3 +6,10 @@ for (var i=0, len=document.styleSheets.length; i < len; i++){
     sheet = document.styleSheets[i];
     alert(sheet.href);
 }
+
+function getStyleSheet(element){
+    return element.sheet || element.styleSheet;
+}
+//get the style sheet for the first <link/> element
+var link = document.getElementsByTagName('link')[0];
+var sheet = getStyleSheet(link);
