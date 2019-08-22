@@ -1,6 +1,12 @@
 var EventUtil = {
     addHandler: function(element, type, handler){
-//code removed for printing
+        if (element.addEventListener){
+            element.addEventListener(type, handler, false);
+        } else if (element.attachEvent){
+            element.attachEvent('on' + type, handler);
+        } else {
+            element['on' + type] = handler;
+        }
     },
     getEvent: function(event){
         return event ? event : window.event;
@@ -16,7 +22,13 @@ var EventUtil = {
         }
     },
     removeHandler: function(element, type, handler){
-//code removed for printing
+        if (element.removeEventListener){
+            element.removeEventListener(type, handler, false);
+        } else if (element.detachEvent){
+            element.detachEvent('on' + type, handler);
+        } else {
+            element['on' + type] = null;
+        }
     },
     stopPropagation: function(event){
         if (event.stopPropagation){
