@@ -26,3 +26,15 @@ var EventUtil = {
     },
     //more code here
 };
+
+// Reading text from the clipboard is helpful when you have a text box that expects only certain
+// characters or a certain format of text. For example, if a text box allows only numbers, then pasted
+// values must also be inspected to ensure that the value is valid. In the paste event, you can determine
+// if the text on the clipboard is invalid and, if so, cancel the default behavior,
+EventUtil.addHandler(textbox, 'paste', function(event){
+    event = EventUtil.getEvent(event);
+    var text = EventUtil.getClipboardText(event);
+    if (!/^\d*$/.test(text)){
+        EventUtil.preventDefault(event);
+    }
+});
