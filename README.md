@@ -1,5 +1,5 @@
 ## Javascript
-When JavaScript fi rst appeared in 1995, its main purpose was to handle some of the input
+When JavaScript first appeared in 1995, its main purpose was to handle some of the input
 validation that had previously been left to server-side languages such as Perl. Prior to that
 time, a round-trip to the server was needed to determine if a required fi eld had been left
 blank or an entered value was invalid. Netscape Navigator sought to change that with the
